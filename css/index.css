@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul#contact-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+ul#contact-links li {
+    margin: 16px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+ul#contact-links li:hover {
+    background: rgba(75, 141, 161, 0.3);
+    transition: background-color 0.3s;
+}
+
+img.contacto {
+    height: 80px;
+    border-radius: 6px;
+}
